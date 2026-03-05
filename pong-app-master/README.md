@@ -1,19 +1,43 @@
-# pong-app
 
-simple pong app in two 
+# Pong – Multiplayer
 
-the players must access the link : https://pong-lara.herokuapp.com
+## Description
 
-controls: mouse moves the paddles
+A simple **real-time multiplayer Pong game** where two players compete to score points by hitting the ball past the opponent’s paddle.
 
-r -> reset game
+The game starts automatically **when both players are connected**.  
+Players control their paddles with the mouse and try to be the first to reach the winning score.
 
-esc-> play/pause game
+> **Note:**  
+> The original online server hosted on Heroku is no longer available on https://pong-lara.herokuapp.com  
+> The game can still be run **locally for demonstration purposes**.
 
-first player to 12 wins
+---
 
-the game starts when both players are connected
+## Game Rules
 
-Later update: 
-The original online server hosted on Heroku is no longer available.
-The game can still be run locally for demonstration purposes.
+- The game requires **two players**.
+- The match starts when **both players are connected**.
+- Players move their paddles using the **mouse**.
+- The **first player to reach 12 points wins** the game.
+
+---
+
+## Controls
+
+- **Mouse** → Move paddle  
+- **R** → Reset game  
+- **ESC** → Pause / Resume game
+
+---
+
+##How to run locally 
+
+
+```bash
+cd games/pong-app
+- npm install
+- npm start
+
+
+
