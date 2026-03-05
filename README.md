@@ -1,28 +1,27 @@
 # 🎮 JavaScript Games Collection
 
 This repository contains two small browser games built with JavaScript:
+Each game is implemented as a separate project and demonstrates different concepts such as DOM manipulation, game logic, and basic multiplayer interaction.
 
-- 🏓 Pong – real-time multiplayer using WebSockets
-- 🎲 Pig Game – turn-based dice game (local multiplayer)
+The goal of this collection is to practice and showcase **front-end development and game logic implementation**.
 
----
 
-# 🏓 Pong – Multiplayer
+### 🏓 Pong – A **real-time multiplayer game using WebSockets**.
 
-## Description
-A real-time multiplayer Pong game.  
-The game starts when both players are connected.
+- The game starts when both players are connected.
+- Players move paddles using the mouse.
+- The first player to reach **12 points** wins.
 
-## Controls
-- Mouse → move paddle  
-- `R` → reset game  
-- `ESC` → pause / resume  
-- First player to **12 points** wins
 
-## How to Run Locally
+### 🎲 Pig Game
 
-```bash
-cd games/pong-app
-npm install
-npm start
+A turn-based dice game for two players.
+
+- Players roll a dice to accumulate points.
+- Rolling **1** resets the current score and switches the player.
+- Players can **Hold** to add their current score to the total score.
+- The first player to reach the winning score wins.
+
+
+
 
